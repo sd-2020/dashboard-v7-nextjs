@@ -66,7 +66,7 @@ const Content = ({ title }) => (
                         <a href="#" className="block relative">
                           <img
                             alt="profil"
-                            src="https://res.cloudinary.com/beloved/image/upload/v1623196231/Assets/person/8_yfarwk.jpg"
+                            src="/images/2.jpg"
                             className="mx-auto object-cover rounded-full h-10 w-10 "
                           />
                         </a>
@@ -111,7 +111,7 @@ const Content = ({ title }) => (
                         <a href="#" className="block relative">
                           <img
                             alt="profil"
-                            src="https://res.cloudinary.com/beloved/image/upload/v1623196231/Assets/person/4_iauuag.jpg"
+                            src="/images/3.jpg"
                             className="mx-auto object-cover rounded-full h-10 w-10 "
                           />
                         </a>
@@ -156,7 +156,7 @@ const Content = ({ title }) => (
                         <a href="#" className="block relative">
                           <img
                             alt="profil"
-                            src="https://res.cloudinary.com/beloved/image/upload/v1623196231/Assets/person/3_iscinv.jpg"
+                            src="/images/4.jpg"
                             className="mx-auto object-cover rounded-full h-10 w-10 "
                           />
                         </a>
@@ -203,7 +203,7 @@ const Content = ({ title }) => (
                         <a href="#" className="block relative">
                           <img
                             alt="profil"
-                            src="https://res.cloudinary.com/beloved/image/upload/v1623196231/Assets/person/6_v4ytve.jpg"
+                            src="/images/5.jpg"
                             className="mx-auto object-cover rounded-full h-10 w-10 "
                           />
                         </a>

@@ -53,7 +53,7 @@ export default function TopNavigation() {
             <a href="#" className="block relative">
               <img
                 alt="CR7"
-                src="https://res.cloudinary.com/beloved/image/upload/v1625012517/Assets/cristiano-ronaldo-portugal-2021_13dokmcp1jf0g1ptvh04ja64y1_r7tpt1.png"
+                src="/images/1.png"
                 className="h-10 mx-auto object-cover rounded-full w-10 "
               />
             </a>
