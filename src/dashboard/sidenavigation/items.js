@@ -7,7 +7,7 @@ const style = {
   title: `mx-4 text-sm`,
   section: `font-thin pl-5 text-white mb-6 uppercase lg:pl-6`,
   active: `border-l-4 border-white lg:border-l-0 lg:border-r-4`,
-  link: `flex items-center text-gray-200 justify-start my-2 p-3 w-full hover:text-white`,
+  link: `flex items-center text-gray-200 justify-start my-9 px-3 w-full hover:text-white`,
 };
 
 export default function SidenavItems() {
