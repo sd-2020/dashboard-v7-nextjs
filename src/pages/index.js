@@ -1,5 +1,5 @@
 import Content from '../components/content';
 
 export default function HomePage() {
-  return <Content title="Users" />;
+  return <Content title="Hello World" />;
 }

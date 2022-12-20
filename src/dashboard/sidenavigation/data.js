@@ -8,38 +8,38 @@ import DocumentationIcon from './icons/documentation';
 
 const data = [
   {
-    section: 'Applications',
+    section: 'Strategy',
     content: [
       {
-        title: 'Users',
-        icon: <HomeIcon />,
-        link: '/',
+        title: 'Scripts',
+        icon: <TerminalIcon />,
+        link: '/admin/scripts',
       },
-      {
-        title: 'Medias',
-        icon: <MediasIcon />,
-        link: '/admin/medias',
-      },
-      {
-        title: 'Contacts',
-        icon: <ContactIcon />,
-        link: '/admin/contacts',
-      },
+      // {
+      //   title: 'Medias',
+      //   icon: <MediasIcon />,
+      //   link: '/admin/medias',
+      // },
+      // {
+      //   title: 'Contacts',
+      //   icon: <ContactIcon />,
+      //   link: '/admin/contacts',
+      // },
     ],
   },
   {
     section: 'Monitoring',
     content: [
-      {
-        title: 'Terminal',
-        icon: <TerminalIcon />,
-        link: '/admin/terminal',
-      },
-      {
-        title: 'Recycle bin',
-        icon: <RecycleBinIcon />,
-        link: '/admin/recycle-bin',
-      },
+      // {
+      //   title: 'Terminal',
+      //   icon: <TerminalIcon />,
+      //   link: '/admin/terminal',
+      // },
+      // {
+      //   title: 'Recycle bin',
+      //   icon: <RecycleBinIcon />,
+      //   link: '/admin/recycle-bin',
+      // },
       {
         title: 'Servers',
         icon: <ServersIcon />,
@@ -47,16 +47,16 @@ const data = [
       },
     ],
   },
-  {
-    section: 'Guides',
-    content: [
-      {
-        title: 'Documentation',
-        icon: <DocumentationIcon />,
-        link: '/admin/documentation',
-      },
-    ],
-  },
+  // {
+  //   section: 'Guides',
+  //   content: [
+  //     {
+  //       title: 'Documentation',
+  //       icon: <DocumentationIcon />,
+  //       link: '/admin/documentation',
+  //     },
+  //   ],
+  // },
 ];
 
 export default data;
