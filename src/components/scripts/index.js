@@ -1,3 +1,5 @@
+import data from "./data";
+
 const Content = ({ title }) => (
   <div>
     <div className="container mx-auto">
@@ -30,141 +32,142 @@ const Content = ({ title }) => (
                 <tr>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-4 py-5 bg-white  border-b border-r border-gray-200 text-gray-800  text-left text-bold uppercase font-bold"
                   >
                     Name
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     op_name
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b  border-r border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     trade
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b  border-r border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     trade_type
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     type  
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b  border-r border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     quantity
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     strategy
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     trailing_or_fix
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     trailing_percentage
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     fix_sl
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     Target_ratio
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     expiry
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     item_otm
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     step_val
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     time_frame
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     Exchange
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     Entry_level
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     Target_level
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     Stop_level
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     Sell_level
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     Sell_Target_level
                   </th>
                   <th
                     scope="col"
-                    className="px-2 py-3 bg-white  border-b border-gray-200 text-gray-800  text-left text-sm uppercase font-normal"
+                    className="px-1 py-5 bg-white  border-b border-r  border-gray-200 text-gray-800  text-left text-sm uppercase font-bold"
                   >
                     Sell_stop_level
                   </th>
                 </tr>
               </thead>
               <tbody>
-                <tr className="hover:bg-gray-100">
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
+                {
+                  data.map((element) => <tr>
+                  {/* <td className="px-2 py-3 border-b border-gray-200 bg-white text-sm hover:bg-gray-100">
                     <div className="flex items-center">
                       <div className="flex-shrink-0">
                         <a href="#" className="block relative">
@@ -181,173 +184,85 @@ const Content = ({ title }) => (
                         </p>
                       </div>
                     </div>
+                  </td> */}
+                  <td className="px-4 py-3 border-b  border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center whitespace-no-wrap">{element.name}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <p className="text-gray-900 whitespace-no-wrap">Admin</p>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center whitespace-no-wrap">{element.op_name.name}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <p className="text-gray-900 whitespace-no-wrap">
-                      12/09/2020
-                    </p>
-                  </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <span className="relative inline-block px-3 text-center py-1 font-semibold text-green-900 leading-tight">
                       <span
                         aria-hidden="true"
-                        className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
+                        className={`absolute inset-0 bg-${element.trade ? "green": "red"}-200 opacity-50 rounded-full`}
                       />
-                      <span className="relative">active</span>
+                      <span className="relative">{`${element.trade ? "Active": "Inactive"}`}</span>
                     </span>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <a
-                      href="#"
-                      className="text-indigo-600 hover:text-indigo-900"
-                    >
-                      Edit
-                    </a>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center whitespace-no-wrap">{element.trade_type.name}</p>
                   </td>
-                </tr>
-                <tr>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <div className="flex items-center">
-                      <div className="flex-shrink-0">
-                        <a href="#" className="block relative">
-                          <img
-                            alt="profil"
-                            src="/images/3.jpg"
-                            className="mx-auto object-cover rounded-full h-10 w-10 "
-                          />
-                        </a>
-                      </div>
-                      <div className="ml-3">
-                        <p className="text-gray-900 whitespace-no-wrap">
-                          Marcus coco
-                        </p>
-                      </div>
-                    </div>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center whitespace-no-wrap">{element.type.name}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <p className="text-gray-900 whitespace-no-wrap">Designer</p>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center whitespace-no-wrap">{element.quantity}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <p className="text-gray-900 whitespace-no-wrap">
-                      01/10/2012
-                    </p>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center whitespace-no-wrap">{element.strategy.name}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                      <span
-                        aria-hidden="true"
-                        className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
-                      />
-                      <span className="relative">active</span>
-                    </span>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center whitespace-no-wrap">{element.trailing_or_fix ? "True": "False"}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <a
-                      href="#"
-                      className="text-indigo-600 hover:text-indigo-900"
-                    >
-                      Edit
-                    </a>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center  whitespace-no-wrap">{element.trailing_percentage.name}</p>
                   </td>
-                </tr>
-                <tr>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <div className="flex items-center">
-                      <div className="flex-shrink-0">
-                        <a href="#" className="block relative">
-                          <img
-                            alt="profil"
-                            src="/images/4.jpg"
-                            className="mx-auto object-cover rounded-full h-10 w-10 "
-                          />
-                        </a>
-                      </div>
-                      <div className="ml-3">
-                        <p className="text-gray-900 whitespace-no-wrap">
-                          Ecric marc
-                        </p>
-                      </div>
-                    </div>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center whitespace-no-wrap">{element.fix_sl}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <p className="text-gray-900 whitespace-no-wrap">
-                      Developer
-                    </p>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center  whitespace-no-wrap">{element.target_ratio.name}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <p className="text-gray-900 whitespace-no-wrap">
-                      02/10/2018
-                    </p>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900  text-center whitespace-no-wrap">{element.expiry.name}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                      <span
-                        aria-hidden="true"
-                        className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
-                      />
-                      <span className="relative">active</span>
-                    </span>
+                  <td className="px-1 py-3 border-b  border-r border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900  text-center whitespace-no-wrap">{element.item_otm}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <a
-                      href="#"
-                      className="text-indigo-600 hover:text-indigo-900"
-                    >
-                      Edit
-                    </a>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center  whitespace-no-wrap">{element.step_value}</p>
                   </td>
-                </tr>
-                <tr>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <div className="flex items-center">
-                      <div className="flex-shrink-0">
-                        <a href="#" className="block relative">
-                          <img
-                            alt="profil"
-                            src="/images/5.jpg"
-                            className="mx-auto object-cover rounded-full h-10 w-10 "
-                          />
-                        </a>
-                      </div>
-                      <div className="ml-3">
-                        <p className="text-gray-900 whitespace-no-wrap">
-                          Julien Huger
-                        </p>
-                      </div>
-                    </div>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center  whitespace-no-wrap">{element.time_frame}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <p className="text-gray-900 whitespace-no-wrap">User</p>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900  text-center whitespace-no-wrap">{element.exchange.name}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <p className="text-gray-900 whitespace-no-wrap">
-                      23/09/2010
-                    </p>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center  whitespace-no-wrap">{element.entry_level}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <span className="relative inline-block px-3 py-1 font-semibold text-green-900 leading-tight">
-                      <span
-                        aria-hidden="true"
-                        className="absolute inset-0 bg-green-200 opacity-50 rounded-full"
-                      />
-                      <span className="relative">active</span>
-                    </span>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900  text-center whitespace-no-wrap">{element.target_level}</p>
                   </td>
-                  <td className="px-5 py-5 border-b border-gray-200 bg-white text-sm">
-                    <a
-                      href="#"
-                      className="text-indigo-600 hover:text-indigo-900"
-                    >
-                      Edit
-                    </a>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900  text-center whitespace-no-wrap">{element.stop_level}</p>
                   </td>
-                </tr>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900  text-center whitespace-no-wrap">{element.sell_level}</p>
+                  </td>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900  text-center whitespace-no-wrap">{element.sell_target_level}</p>
+                  </td>
+                  <td className="px-1 py-3 border-b border-r  border-gray-200 bg-white text-sm">
+                    <p className="text-gray-900 text-center  whitespace-no-wrap">{element.sell_stop_level}</p>
+                  </td>
+                </tr>)
+                }
+                
               </tbody>
             </table>
-            <div className="px-5 bg-white py-5 flex flex-col xs:flex-row items-center xs:justify-between">
+            {/* <div className="px-5 bg-white py-5 flex flex-col xs:flex-row items-center xs:justify-between">
               <div className="flex items-center">
                 <button
                   type="button"
@@ -404,13 +319,13 @@ const Content = ({ title }) => (
                   </svg>
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
     </div>
 
-    <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
+    {/* <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
       <div className="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-white mt-6  shadow-lg rounded-lg dark:bg-gray-800">
         <div className="flex-shrink-0">
           <div className="flex items-center mx-auto justify-center h-12 w-12 rounded-md bg-gray-600 text-white">
@@ -480,7 +395,7 @@ const Content = ({ title }) => (
           solutions for digital marketing for your business.
         </p>
       </div>
-    </div>
+    </div> */}
   </div>
 );
 

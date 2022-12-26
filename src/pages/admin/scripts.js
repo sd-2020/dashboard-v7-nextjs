@@ -1,5 +1,6 @@
-import Content from '../../components/content';
+import Scripts from "../../components/scripts";
+
 
 export default function ContactsPage() {
-  return <Content title="Scripts" />;
+  return <Scripts title={"Active Scripts"} />;
 }

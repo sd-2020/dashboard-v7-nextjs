@@ -8,7 +8,7 @@ import DocumentationIcon from './icons/documentation';
 
 const data = [
   {
-    section: 'Strategy',
+    section: 'Dashboard',
     content: [
       {
         title: 'Scripts',
