@@ -1,0 +1,272 @@
+POST http://localhost:3000/api/tradeTypes
+Content-Type: application/json
+
+{
+    "name": "Live"
+}
+###
+
+POST http://localhost:3000/api/tradeTypes
+Content-Type: application/json
+
+{
+    "name": "Paper"
+}
+###
+
+POST http://localhost:3000/api/types
+Content-Type: application/json
+
+{
+    "name": "op_t"
+}
+###
+
+POST http://localhost:3000/api/types
+Content-Type: application/json
+
+{
+    "name": "eq_t"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "MC3_20"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "PHB_PLB_9_14"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "PHB_PLB_20"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "MANUAL"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "MC3_20_FUT"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "PHB_PLB_20_FUT"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "M920"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "MC3_20_RSI"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "RSI_SMA_OF_RSI"
+}
+###
+
+POST http://localhost:3000/api/strategies
+Content-Type: application/json
+
+{
+    "name": "RSI_6040"
+}
+###
+
+POST http://localhost:3000/api/trailingPercentages
+Content-Type: application/json
+
+{
+    "name": "0.5"
+}
+###
+
+POST http://localhost:3000/api/trailingPercentages
+Content-Type: application/json
+
+{
+    "name": "1"
+}
+###
+
+POST http://localhost:3000/api/trailingPercentages
+Content-Type: application/json
+
+{
+    "name": "1.5"
+}
+###
+POST http://localhost:3000/api/trailingPercentages
+Content-Type: application/json
+
+{
+    "name": "2"
+}
+###
+POST http://localhost:3000/api/trailingPercentages
+Content-Type: application/json
+
+{
+    "name": "3"
+}
+###
+POST http://localhost:3000/api/trailingPercentages
+Content-Type: application/json
+
+{
+    "name": "5"
+}
+###
+
+POST http://localhost:3000/api/trailingPercentages
+Content-Type: application/json
+
+{
+    "name": "7"
+}
+###
+POST http://localhost:3000/api/trailingPercentages
+Content-Type: application/json
+
+{
+    "name": "10"
+}
+###
+
+POST http://localhost:3000/api/exchanges
+Content-Type: application/json
+
+{
+    "name": "NSE"
+}
+###
+POST http://localhost:3000/api/exchanges
+Content-Type: application/json
+
+{
+    "name": "NFO"
+}
+###
+POST http://localhost:3000/api/exchanges
+Content-Type: application/json
+
+{
+    "name": "MCX"
+}
+###
+
+POST http://localhost:3000/api/targetRatios
+Content-Type: application/json
+
+{
+    "name": "0.25"
+}
+###
+
+POST http://localhost:3000/api/targetRatios
+Content-Type: application/json
+
+{
+    "name": "0.5"
+}
+###
+
+POST http://localhost:3000/api/targetRatios
+Content-Type: application/json
+
+{
+    "name": "1"
+}
+###
+targetRatios
+POST http://localhost:3000/api/targetRatios
+Content-Type: application/json
+
+{
+    "name": "2"
+}
+###
+
+POST http://localhost:3000/api/targetRatios
+Content-Type: application/json
+
+{
+    "name": "3"
+}
+###
+POST http://localhost:3000/api/targetRatios
+Content-Type: application/json
+
+{
+    "name": "1.5"
+}
+###
+POST http://localhost:3000/api/targetRatios
+Content-Type: application/json
+
+{
+    "name": "2.5"
+}
+###
+
+POST http://localhost:3000/api/targetRatios
+Content-Type: application/json
+
+{
+    "name": "3.5"
+}
+###
+
+POST http://localhost:3000/api/targetRatios
+Content-Type: application/json
+
+{
+    "name": "3.5"
+}
+###
+
+
+POST http://localhost:3000/api/expiries
+Content-Type: application/json
+
+{
+    "name": "22N03"
+}
+###

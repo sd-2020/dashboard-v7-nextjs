@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Salvia-kit Dashboard v7 Next.js</title>
+        <title>Algo Trading Dashboard</title>
       </Head>
       <DashboardLayout>
         <Component {...pageProps} />

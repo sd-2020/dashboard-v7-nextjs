@@ -1,11 +1,10 @@
 {
-  "name": "dashboard-v7-nextjs",
+  "name": "algo-trading-dashboard",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "Enoch Ndika",
+  "author": "Dheeraj Sharma",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/salvia-kit/dashboard-v7-nextjs.git"
+    "type": "git"
   },
   "keywords": [
     "ui",
@@ -28,11 +27,13 @@
   },
   "dependencies": {
     "@reach/portal": "^0.16.0",
+    "mongodb": "^3.5.9",
     "next": "^12.0.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@types/mongodb": "^4.0.7",
     "autoprefixer": "^10.4.0",
     "eslint": "^8.5.0",
     "eslint-config-next": "^12.0.7",
